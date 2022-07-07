@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/좌측메뉴바.css">
+    <style>
+.dropbtn{
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    border: none;
+    font-weight:bold;
+    width: 130px;
+    text-align: center;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    background-color:white ;
+    position: absolute;
+    width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: pink;
+}
+    </style>
+</head>
+<body>
+    <div style="height:50px;"></div>
+    <div style="height:100px;background-color:aqua">
+        <div style="height:100px;float: left; width: 12%;"></div>
+        <div style="height:100px;float: left; width: 12%;">
+            <div class="dropdown">
+                <a href="start.html">
+                    <button  style="color:red"class="dropbtn">HOME</button>             
+                    <div class="dropdown-content"></div>
+                </a>                       
+            </div>
+        </div>
+        <div style="height:100px;float: left; width: 12%;">
+            <div class="dropdown">
+                <button class="dropbtn">Asia</button>
+                <div class="dropdown-content">
+                    <a href="#">Thai</a>
+                    <a href="#">India</a>
+                    <a href="#">Japan</a>
+                </div>
+            </div>
+        </div>
+        <div style="height:100px;float: left; width: 12%;">
+            <div class="dropdown">
+                <button class="dropbtn">America</button>
+                <div class="dropdown-content">
+                    <a href="#">USA</a>
+                    <a href="#">Canada</a>
+                    <a href="#">Brazil</a>
+                </div>
+            </div>
+        </div>
+        <div style="height:100px;float: left; width: 12%;">
+            <div class="dropdown">
+                <button class="dropbtn">Europe</button>
+                <div class="dropdown-content">
+                    <a href="#">UK</a>
+                    <a href="#">France</a>
+                    <a href="#">Italy</a>
+                </div>
+            </div>
+        </div>
+        <div style="height:100px;float: left; width: 12%;">
+            <div class="dropdown">
+                <button class="dropbtn">Africa</button>
+                <div class="dropdown-content">
+                    <a href="#">Egypt</a>
+                    <a href="#">Madagascar</a>
+                    <a href="#">Tanzania</a>
+                </div>
+            </div>
+        </div>
+        <div style="height:100px;float:left; width: 12%;">
+            <div class="dropdown">
+                <button class="dropbtn">About</button>
+                <div class="dropdown-content">
+                    <a href="Photo.html">Photo</a>
+                    <a href="exit.html">Exit</a>
+                    <a href="darkmode.html">Dark</a>
+                    <a href="Math.html">Math</a>
+                </div>
+            </div>
+            <div style="height:100px;float: left; width: 12%;"></div>
+        </div>
+        <div style="height:100px;float: left; width: 12%;"></div>
+    </div>
+    <nav style="background-color:aqua;height:10px;text-align:center ;color:white;font-size:30px;font-weight:bold;">
+        <div style="height:100px;float: left; width: 12%;">
+            <image src="image/야자수.webp" style="float:left;transform:rotate(310deg);
+            position:relative;right:-10px;top:35px;"></image>
+        </div>     
+    </nav>
+    <div style="margin:-16px 0px -16px 0px;height:200px;background-color:aqua;color:black;font-size:100px;font-weight:bold;">
+        <image src="image/글자투어.png" style="transform:rotate(180deg);
+        float:left;position:relative;left:85px;top:50px;"></image>
+    </div>
+    <image src="image/야자수.webp" style="float:right;position:relative;right:0px;"></image>
+    <div class="cd1">
+        <a href="naver.com"><image src="image/비행기.gif"
+            style="float:left;position:relative;top:100px;
+            border-style:hidden; left:100px;height:20%;width:20%;"></image></a>
+        <p></p>
+        <image src="image/돌고래.gif" style="float:right;position:relative;left:250px;bottom:185px"></image>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <a href="naver.com"><video muted autoplay loop 
+            src="video/People Waiting.mp4"
+            style="float:left;left:150px;position:relative;height:30%;width:30%;
+            border-width:8px;border-color:black ;box-shadow: 0px 0px 50px #000;
+            border-style:solid"></video></a>
+        <p></p>
+        <p></p>
+        <a href="naver.com"><video 
+            src="video/start.mp4" type="video/mp4"
+            onmouseover="this.src='video/입국.mp4';" 
+            onmouseout="this.src='video/start.mp4';" 
+            alt="로고입니다" title="타이틀"
+            muted autoplay loop style="float:left;bottom:72px;left:240px;position:relative;
+            height:40%;width:40%;border-width:10px;border-color:white;border-style:solid">
+                <source src="video/start.mp4" type="video/mp4">
+            </video></a>
+        <p></p>
+        <a href="naver.com"><video
+            src="video/start.mp4" type="video/mp4" 
+            onmouseover="this.src='video/출국.mp4';" 
+            onmouseout="this.src='video/start.mp4';" 
+            alt="로고입니다" title="타이틀"       
+            muted autoplay loop style="float:right;bottom:72px;right:65px;position:relative;
+            height:40%;width:40%;border-width:10px;border-color:black;border-style:solid">
+                <source src="video/start.mp4" type="video/mp4">
+            </video></a>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <a href="naver.com"><image 
+            src="image/pexels-ana-eva-4155130.jpg"
+            style=" 
+            float:left;position:relative;left:80px;height:35%;width:35%;
+            border-width:20px;border-color:red;box-shadow:0px 0px 5px 20px #f00;
+            border-style:double"></image></a>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <a href="naver.com"><video muted autoplay loop style="float:left;left:180px;position:relative;
+            height:35%;width:35%;border-width:15px;border-color:aqua;box-shadow: inset 0 0 100px red, 0 0 100px blue;">
+                <source src="video/iceland.mp4" type="video/mp4">
+            </video></a>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <a href="naver.com"><image src="image/pexels-bagus-pangestu-1440476.jpg"
+            style="float:left;position:relative;bottom:50px;
+            right:150px;height:35%;width:35%;border-width:10px;border-color:black;
+            border-style:double"></image></a>
+        <p></p>
+        <a href="naver.com"><image src="image/finger.gif"
+            style="float:left;position:relative;bottom:150px;right:300px;
+            height:2.5%;width:2.5%;border-width:10px;border-style:hidden"></image></a>
+        <p></p>
+        <p></p>
+        <a href="naver.com"><image src="image/슈퍼맨.gif"
+            style="float:left;position:relative;top:330px;
+            right:500px;height:20%;width:20%;border-width:10px;border-color:black;
+            border-style:double"></image></a>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <a href="naver.com"><image src="image/human.gif"
+            style="float:right;position:relative;bottom:50px;
+            border-style:hidden;height:15%;width:15%;"></image></a>
+        <p></p>
+        <p></p>
+        <p></p>
+        <image style="width:15%;height:15%;position:relative;
+        top:270px;left:50px;"src="image/구름.png"></image>
+        <p></p>
+        <p></p>
+        <p></p>
+        <a href="naver.com"><video muted autoplay loop style="float:left;top:100px;left:150px;position:relative;
+        height:20%;width:20%;border-width:15px;border-color:whitesmoke;border-style:ridge">
+            <source src="video/horn.webm" type="video/mp4">
+        </video></a>
+        <p></p>
+        <a href="naver.com"><video muted autoplay loop style="float:left;top:100px;left:150px;position:relative;
+            height:20%;width:20%;border-width:15px;border-color:whitesmoke ;border-style:ridge">
+                <source src="video/horn.webm" type="video/mp4">
+            </video></a>
+        <p></p>
+        <a href="naver.com"><video muted autoplay loop style="float:left;top:100px;left:150px;position:relative;
+            height:20%;width:20%;border-width:15px;border-color:whitesmoke;border-style:ridge">
+                <source src="video/horn.webm" type="video/mp4">
+            </video></a>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <a href="naver.com"><image src="image/seoul.jpg"
+            onmouseover="this.src='image/남산타워.jpg';" 
+            onmouseout="this.src='image/명동.jpg';" 
+            style="float:right;position:relative;bottom:50px;;
+            border-style:double; right:150px;height:30%;width:30%;border-width:10px;
+            border-color:red"></image></a>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <a href="naver.com"><video 
+            src="video/london.mp4" 
+            onmouseover="this.src='video/positano.webm';" 
+            onmouseout="this.src='video/london.mp4';" 
+            muted autoplay loop style="float:left;top:150px;left:50px;position:relative;
+            height:40%;width:40%;border-width:15px;border-color:blue;border-style:groove">
+                <source src="video/london.mp4" type="video/mp4">
+            </video></a>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <a href="naver.com"><image src="image/shark.gif"
+            style="float:left;position:relative;bottom:500px;transform:rotate(70deg);
+            border-style:hidden; left:100px;height:30%;width:30%;"></image></a>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <a href="naver.com"><image src="image/폭죽.gif"
+            style="float:right;position:relative;bottom:200px;
+            border-style:hidden; right:300px;height:20%;width:20%;"></image></a>
+        <p></p>
+        <a href="naver.com"><video muted autoplay loop style="float:right;top:100px;left:100px;position:relative;
+            height:50%;width:50%;border-width:15px;border-color:rgb(139, 111, 111);border-style:ridge">
+                <source src="video/mont.mp4" type="video/mp4">
+            </video></a>
+        <p></p>
+        <p></p>
+        <p></p>
+        <image src="image/화살표.gif" style="position:relative;transform:rotate(270deg);float:left;left:0px;
+        top:50px;width:25%;height:25%;"></image>
+        <p></p>
+        <a href="naver.com"><image src="image/paris-eiffel-tower.gif"
+            onmouseover="this.src='image/에펠탑.jpg';" 
+            onmouseout="this.src='image/paris-eiffel-tower.gif';"
+            style="float:left;position:relative;top:470px;
+            border-style:hidden; left:50px;height:25%;width:25%;"></image></a>
+        <p></p>
+        <p></p>
+        <a href="naver.com"><image src="image/피사의사탑.jpg"
+            onmouseover="this.src='image/피사의사탑2.jpg';" 
+            onmouseout="this.src='image/피사의사탑.jpg';"
+            style="float:left;position:relative;top:270px;
+            border-style:hidden; left:180px;height:23%;width:23%;"></image></a>
+        <p></p>
+        <p></p>
+        <a href="naver.com"><image src="image/도쿄타워.jpg"
+            style="float:left;position:relative;top:270px;
+            border-style:hidden; left:300px;height:24%;width:24%;"
+            onmouseover="this.src='image/seoul.jpg';" 
+            onmouseout="this.src='image/도쿄타워.jpg';" ></image></a>
+        <p></p>
+        <p></p>
+        <p></p>
+        <a href="naver.com"><image src="image/반짝이.gif"
+            style="float:left;position:relative;top:210px;
+            border-style:hidden;right:155px;height:5%;width:5%;"></image></a>
+        <p></p>
+        <p></p>
+        <a href="naver.com"><image src="image/왼쪽새.gif"
+            onmouseover="this.src='image/폭죽.gif';" 
+            onmouseout="this.src='image/오른쪽새.gif';" 
+            alt="로고입니다" 
+            style="float:left;position:relative;top:250px;
+            border-style:hidden;left:50px;height:5%;width:5%;"></image></a>
+        <p></p>
+        <p></p>
+        <a href="naver.com"><image src="image/오른쪽새.gif"
+            onmouseover="this.src='image/폭죽.gif';" 
+            onmouseout="this.src='image/왼쪽새.gif';" 
+            alt="로고입니다" 
+            style="float:left;position:relative;top:120px;
+            border-style:hidden;left:170px;height:5%;width:5%;"></image></a>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <a href="/"><img 
+            style="float:right;bottom:70px;right:40px;position:relative;height:5%;width:5%;"
+            src="image/finger.gif" 
+            onmouseover="this.src='image/human.gif';" 
+            onmouseout="this.src='image/finger.gif';" 
+            alt="로고입니다" title="타이틀" /></a>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p> 
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+</body>
+</html>

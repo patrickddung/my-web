@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="JavaScript">
+    function order(str)
+    {if (str == "기린")
+    alert("기린을 선택하였습니다.");
+    else if(str == "돼지")
+    alert("돼지를 선택하였습니다.");
+    else if(str == "개")
+    alert("개를 선택하였습니다.");
+    else if(str == "사자")
+    alert("사자를 선택하였습니다.");
+    else if(str == "하마")
+    alert("하마를 선택하였습니다.");
+    }
+    </script>
+    <style>
+        .button{
+            font-size:50px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div style="height:300px;"></div>
+    <p style="font-size:50px;text-align:center;">좋아하는 동물을 선택해주세요</p>
+    <form style="font-size:40px;text-align:center">
+        <input style="font-size:40px;height:100px;width:100px;"type="button" value="기린" onclick="order('기린')"> 
+        <input style="font-size:40px;height:100px;width:100px;"type="button" value="돼지" onclick="order('돼지')">
+        <a style="text-decoration:none ;"href="start.html">
+            <input style="font-size:40px;height:100px;width:100px;"type="button" value="개" onclick="order('개')"> 
+        </a> 
+        <input style="font-size:40px;height:100px;width:100px;"type="button" value="사자" onclick="order('사자')">
+        <input style="font-size:40px;height:100px;width:100px;"type="button" value= "하마" onclick="order('하마')">
+    </form>
+    <div></div>
+    <!--░░░░░░░░░░░░░░░░░░░░
+        ▄▀▄▀▀▀▀▄▀▄░░░░░░░░░░
+        █░░░░░░░░▀▄░░░░░░░▄░
+        █░░▀░░▀░░░░░▀▄▄░░█░█
+        █░▄░█▀░▄░░░░░░░▀▀░░█
+        █░░▀▀▀▀░░░░░░░░░░░░█
+        █░░░░░░░░░░░░░░░░░░█
+        █░░░░░░░░░░░░░░░░░░█
+        ░█░░▄▄░░▄▄▄▄░░▄▄░░█░
+        ░█▄▄▀█▄▄▀░░█▄▄▀█▄▄▀░
+        ░░░░░░░░░░░░░░░░░░░░
+        정답은 개 입니다.-->
+</body>
+</html>

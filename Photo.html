@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html ,body {height: 100%;-ms-overflow-style: none;}
+        ::-webkit-scrollbar {
+display: none;
+}
+
+/*특정 부분 스크롤바 없애기*/
+
+.box{
+    -ms-overflow-style: none;
+}
+.box::-webkit-scrollbar{
+display:none;
+}
+        .fontup {color:#666666;}
+        .fontover {color:#CC3333;}
+        .bg{
+            width: 100%;
+            height: 100%;
+            background-image:url(image/ddp.jpg);
+            background-repeat: no-repeat;
+            background-position: center left;
+            background-size: cover;
+            /*이 속성을 써 줘야지만 위에 결과물을 낼수가 있습니다.*/
+            background-attachment: fixed;
+        }
+        .bg2{
+            height: 100%;
+            background-image:url(image/seoul.jpg);
+            background-repeat: no-repeat;
+            background-position: top left;
+            background-size: 50% 100%;
+            /*이 속성을 써 줘야지만 위에 결과물을 낼수가 있습니다.*/
+            background-attachment: fixed;
+        }
+        .bg3{
+            height: 100%;
+            background-image:url(image/명동.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            background-size: 50% 100%;
+            /*이 속성을 써 줘야지만 위에 결과물을 낼수가 있습니다.*/
+            background-attachment: fixed;
+        }
+        .bg4{
+            height: 100%;
+            background-image:url(image/도쿄타워.jpg);
+            background-repeat: no-repeat;
+            background-position: left;
+            background-size: 50% 100%;
+            /*이 속성을 써 줘야지만 위에 결과물을 낼수가 있습니다.*/
+            background-attachment: fixed;
+        }
+        .bg5{
+            height: 100%;
+            background-image:url(image/pexels-bagus-pangestu-1440476.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom center;
+            background-size: 50% 100%;
+            /*이 속성을 써 줘야지만 위에 결과물을 낼수가 있습니다.*/
+            background-attachment: fixed;
+        }
+        .bg6{
+            height: 100%;
+            background-image:url(image/에펠탑.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom center;
+            background-size: 50% 100%;
+            /*이 속성을 써 줘야지만 위에 결과물을 낼수가 있습니다.*/
+            background-attachment: fixed;
+        }
+        .bg7{
+            height: 100%;
+            background-image:url(image/몽생미셸.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom center;
+            background-size: 50% 100%;
+            /*이 속성을 써 줘야지만 위에 결과물을 낼수가 있습니다.*/
+            background-attachment: fixed;
+        }
+        .bg8{
+            height: 100%;
+            background-image:url(image/피사의사탑.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom center;
+            background-size: 50% 100%;
+            /*이 속성을 써 줘야지만 위에 결과물을 낼수가 있습니다.*/
+            background-attachment: fixed;
+        }
+        .bg9{
+            height: 100%;
+            background-image:url(image/pexels-ana-eva-4155130.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom center;
+            background-size: 50% 100%;
+            /*이 속성을 써 줘야지만 위에 결과물을 낼수가 있습니다.*/
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"style="float:right;height:100%;width:50% ;overflow-y: scroll;">
+        <div style="background-color:black;height:100px;
+            font-size:30px;color:red;font-weight:bold;text-align:center;">
+            <a style="text-decoration:none;" href="#Asia">Asia</a>
+            <a style="text-decoration:none;" href="#Europe">Europe</a>
+            <a style="text-decoration:none;" href="#끝">End</a>
+        </div>      
+        <div style="background-color:black" class="bg"></div>
+        <div style="background-color:black" class="bg2"></div>
+        <div style="background-color:black" class="bg3"></div>
+        <div style="background-color:black;height:50px;"><a style="float:right;text-decoration:none" name="Asia"></a></div>
+        <div style="background-color:black" class="bg4"></div>
+        <div style="background-color:black" class="bg5"></div>
+        <div style="background-color:black;height:50px;"><a style="float:right;text-decoration:none;"name="Europe"></a></div>
+        <div style="background-color:black" class="bg6"></div>
+        <div style="background-color:black" class="bg7"></div>
+        <div style="background-color:black" class="bg8"></div>
+        <div style="background-color:black" class="bg9"></div>
+        <div style="background-color:black;height:50px;"><a style="float:right;text-decoration:none;"name="끝"></a></div>
+        <div style="background-color:black;height:100px;color:white"></div>           
+    </div>
+    <div  class="box"style="float:left;height:100%;width:50% ; overflow-x:hidden; overflow-y:scroll;">
+        <div style="background-color:black;height:100px;
+            font-size:30px;color:blue;font-weight:bold;text-align:center;">
+            <a style="text-decoration:none;" href="#Asia2">Asia</a>
+            <a style="text-decoration:none;" href="#Europe2">Europe</a>
+            <a style="text-decoration:none;" href="#끝2">End</a>
+        </div>
+        <div style="background-color:black" class="bg"></div>
+        <div style="background-color:black" class="bg2"></div>
+        <div style="background-color:black" class="bg3"></div>
+        <div style="background-color:black;height:50px;"><a style="float:left;text-decoration:none" name="Asia2"></a></div>
+        <div style="background-color:black" class="bg4"></div>
+        <div style="background-color:black" class="bg5"></div>
+        <div style="background-color:black;height:50px;"><a style="float:left;text-decoration:none;"name="Europe2"></a></div>
+        <div style="background-color:black" class="bg6"></div>
+        <div style="background-color:black" class="bg7"></div>
+        <div style="background-color:black" class="bg8"></div>
+        <div style="background-color:black" class="bg9"></div>
+        <div style="background-color:black;height:50px;"><a style="float:left;text-decoration:none;"name="끝2">end</a></a></div>
+        <div style="background-color:black;height:100px;color:white">
+            <a style="text-decoration:none;font-size:80px;"href="start.html">처음으로</a>
+        </div>
+    </div>
+</body>
+</html>

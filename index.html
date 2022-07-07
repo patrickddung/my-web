@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { height:100%;padding: 0px; margin: 0px; }
+        .jb-box { width: 100%; height: 100%; overflow: hidden;margin: 0px auto; position: relative; }
+        video { width: 100%; }
+        .jb-text { position: absolute; top: 10%; width: 100%; }
+        .jb-text p { margin-top: -24px; text-align: center; font-size: 48px; color: #ffffff; }
+        .lb-wrap {
+        width: 50%;
+        margin: 10px auto;
+        border: 1px solid #000000;
+        }
+        .lb-wrap img {
+        width: 100%;
+        vertical-align: middle;
+        }
+        .lb-text {
+        padding: 10px 20px;
+        background-color: #FFEEBC;
+        text-align: center;
+        }
+        html {height: 100%;}
+        .fontup {color:#666666;}
+        .fontover {color:#CC3333;}
+        .bg{
+            width: 100%;
+            height: 100%;
+            background-image:url(image/seoul.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 50% 100%;
+            /*이 속성을 써 줘야지만 위에 결과물을 낼수가 있습니다.*/
+            background-attachment: fixed;
+        }
+        .bg2{
+            height: 100%;
+            background-image:url(image/남산타워.jpg);
+            background-repeat: no-repeat;
+            background-position: top center;
+            background-size: 50% 100%;
+            /*이 속성을 써 줘야지만 위에 결과물을 낼수가 있습니다.*/
+            background-attachment: fixed;
+        }
+        .bg3{
+            height: 100%;
+            background-image:url(image/ddp.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom center;
+            background-size: cover;
+            /*이 속성을 써 줘야지만 위에 결과물을 낼수가 있습니다.*/
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div style="margin:0px;height: 500px;background-color:black;text-align: center;transform:rotate(180deg);">
+        <a href="첫화면.html"><img src="image/여행글자.png"></a>
+    </div>
+    <div style="height:500px;background-color:black"></div>
+    <div style="background-color:black" class="bg"></div>
+    <div style="background-color:black;height:50px;">
+        <marquee style="font-weight:bold;font-size:40px;color:white;text-align:center;"direction=right>
+            SEOUL SEOUL SEOUL SEOUL SEOUL SEOUL SEOUL SEOUL SEOUL SEOUL SEOUL 
+        </marquee> 
+    </div>
+    <div style="background-color:black" class="bg2"></div>
+    <div style="background-color:black;height:50px;">
+        <marquee style="font-weight:bold;font-size:40px;color:white;text-align:center;"direction=left>
+            SEOUL SEOUL SEOUL SEOUL SEOUL SEOUL SEOUL SEOUL SEOUL SEOUL SEOUL 
+        </marquee> 
+    </div>
+    <div class="bg3"></div>
+    <div style="background-color:black;height:50px;"></div>
+    <div class="jb-box" style="background-color:black">
+        <video muted autoplay loop>
+            <source src="video/start.mp4" type="video/mp4">
+            <strong>Your browser does not support the video tag.</strong>
+        </video>
+    </div>
+    <div style="font-weight:bold" class="jb-text">
+        <a style="text-decoration:none"href="본화면.html">
+            <p style="position:relative;float:right;top:3660px;right:450px;color:aqua">Asia</p>
+        </a>
+        <a style="text-decoration:none" href="본화면.html">
+            <p style="position:relative;float:left;top:3640px;left:200px;color:hotpink">Europe</p>
+        </a>
+    </div>
+    <div style="height:50px;background-color:black"></div>
+    <div style="height:150px;background-color:black;color:white">
+    </div>
+    <div style="background-color:white;height:50px;"></div>
+    <footer style="height:100px;background-color:white;
+    text-align:center ;color:black;font-size:30px;font-weight:bold;">
+        <div style="float:left;height:100px;position:relative;width:12%;">
+        </div>
+        <div style="float:left;height:100px;position:relative;width:12%;color:red">
+            <a style="color:red;text-decoration:none;"href="Home.html">Home</a>
+        </div>
+        <div style="float:left;height:100px;position:relative;width:12%;">
+            <a style="color:black;text-decoration:none;"href="Photo.html">Photo</a>
+        </div>
+        <div style="float:left;height:100px;position:relative;width:12%;">
+            <a style="color:black;text-decoration:none;"href="exit.html">Exit</a>
+        </div>
+        <div style="float:left;height:100px;position:relative;width:12%;">
+            <a style="color:black;text-decoration:none;"href="start.html">Start</a>
+        </div>
+        <div style="float:left;height:100px;position:relative;width:12%;color:blue">
+            <a style="color:blue;text-decoration:none;"href="darkmode.html">Dark</a>
+        </div>
+        <div style="float:left;height:100px;position:relative;width:12%;">
+            <a style="color:black;text-decoration:none;"href="Math.html">Math</a>
+        </div>
+        <div style="float:left;height:100px;position:relative;width:12%;">
+        </div>
+    </footer>
+</body>
+</html>
